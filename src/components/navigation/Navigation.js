@@ -70,7 +70,7 @@ class Navigation extends React.Component {
               <li ref={(ctx)=>this.ref = ctx} onClick={() =>{ this.hideNavBar()}}className="nav__item"><a href="#about" className="nav__link"><NavLink to="/about/contact" activeClassName="active">Contact</NavLink></a></li>
               <li ref={(ctx)=>this.ref = ctx} onClick={() =>{ this.hideNavBar()}} className="nav__item"><a href="#work" className="nav__link"><NavLink to="/dashboard" activeClassName="active">Dashboard</NavLink></a></li>
               <li ref={(ctx)=>this.ref = ctx} onClick={() =>{ this.hideNavBar()}} className="nav__item"><a href="#work" className="nav__link"><NavLink to="/cheatsheet" exact activeClassName="active">Note</NavLink></a></li> */}
-              <li ref={(ctx)=>this.ref = ctx} onClick={() =>{ this.hideNavBar()}} className="nav__item"><a href="#work" className="nav__link"><NavLink to="/data-visualization-using-nivo" exact activeClassName="active">Data Visualization</NavLink></a></li>
+              {/* <li ref={(ctx)=>this.ref = ctx} onClick={() =>{ this.hideNavBar()}} className="nav__item"><a href="#work" className="nav__link"><NavLink to="/data-visualization-using-nivo" exact activeClassName="active">Data Visualization</NavLink></a></li> */}
               {/* <li ref={(ctx)=>this.ref = ctx} onClick={() =>{ this.hideNavBar()}} className="nav__item"><a href="#work1" className="nav__link"><NavLink to="/tutorial/api_using-react" exact activeClassName="active">APIUsingReact</NavLink></a></li> */}
             </ul>
           </nav>
