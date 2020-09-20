@@ -20,7 +20,7 @@ export default class AboutMeSection extends React.Component {
                </p>
                 <p>I define myself as a continuous learner and prefer to keep learning and challenge myself.</p>
                <b>Honors-Awards</b>
-               <p>Angular Attack 2018 (Public Faborite for project - Multilayout Generator</p>
+               <p>Angular Attack 2018 (Public Favorite for project - Multilayout Generator</p>
                <p>React Riot Winner (Hackers Favorite for project - A good day to quiz hard</p>
            </div>
            
