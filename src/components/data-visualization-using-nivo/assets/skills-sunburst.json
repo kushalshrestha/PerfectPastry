@@ -1,0 +1,237 @@
+{
+	"name":"skills",
+	"color": "hsl(170, 82%, 48%, 1)",
+	"children" : [
+		{
+			"name" : "Front End",
+            "color": "hsl(170, 82%, 48%, 1)",
+            "children" : [
+                {
+                    "name" : "Design",
+                    "color" :"hsl(170, 82%, 48%, 1)",
+                    "children" : [
+                        {
+                            "name" : "Figma Tool",
+                            "color" :"hsl(170, 82%, 48%, 1)",
+                            "loc" : 7
+                        },
+                        {
+                            "name" : "draw.io",
+                            "color" :"hsl(170, 82%, 48%, 1)",
+                            "loc" : 3
+                        }
+                    ]
+                },
+                {
+                    "name" : "Markup & Scripting",
+                    "color" :"hsl(170, 82%, 48%, 1)",
+                    "children" : [
+                        {
+                            "name" : "HTML",
+                            "color" :"hsl(170, 82%, 48%, 1)",
+                            "loc" : 20
+                        },
+                        {
+                            "name" : "CSS",
+                            "color" :"hsl(170, 82%, 48%, 1)",
+                            "loc" : 10
+                        },
+                        {
+                            "name" : "XML",
+                            "color" :"hsl(170, 82%, 48%, 1)",
+                            "loc" : 10
+                        },
+                        {
+                            "name" : "JavaScript",
+                            "color" :"hsl(170, 82%, 48%, 1)",
+                            "children" : [
+                                {
+                                    "name" : "Core JS",
+                                    "color" :"hsl(170, 82%, 48%, 1)",
+                                    "loc" : 20
+                                },
+                                {
+                                    "name" : "Jquery",
+                                    "color" :"hsl(170, 82%, 48%, 1)",
+                                    "loc" : 10
+                                },
+                                {
+                                    "name" : "React",
+                                    "color" :"hsl(170, 82%, 48%, 1)",
+                                    "loc" : 15
+                                },
+                                {
+                                    "name" : "Angular",
+                                    "color" :"hsl(170, 82%, 48%, 1)",
+                                    "loc" : 10
+                                }
+                            ]
+                        }
+
+                    ]
+                }
+			
+			]
+		},
+		{
+			"name" : "Back End",
+			"color": "hsl(170, 82%, 48%, 1)",
+			"children" : [
+                {
+                    "name" : "Programming Language",
+                    "color" :"hsl(170, 82%, 48%, 1)",
+                    "children" : [
+                        {
+                            "name" : "PHP",
+                            "color" :"hsl(170, 82%, 48%, 1)",
+                            "children" : [
+                                {
+                                    "name" : "Core PHP",
+                                    "color" :"hsl(170, 82%, 48%, 1)",
+                                    "loc" : 10
+                                },
+                                {
+                                    "name" : "Laravel",
+                                    "color" :"hsl(170, 82%, 48%, 1)",
+                                    "loc" : 5
+                                },
+                                {
+                                    "name" : "CakePHP",
+                                    "color" :"hsl(170, 82%, 48%, 1)",
+                                    "loc" : 2
+                                },
+                                {
+                                    "name" : "Wordpress (Template Design)",
+                                    "color" :"hsl(170, 82%, 48%, 1)",
+                                    "loc" : 3
+                                }
+                            ]
+                        },
+                        {
+                            "name" : "Python",
+                            "color" :"hsl(170, 82%, 48%, 1)",
+                            "loc" : 5
+                        },
+                        {
+                            "name" : "Java",
+                            "color" :"hsl(170, 82%, 48%, 1)",
+                            "loc" : 5
+                        }
+                    ]
+                },
+                {
+                    "name" : "Database",
+                    "color" :"hsl(170, 82%, 48%, 1)",
+                    "children" : [
+                        {
+                            "name" : "MySQL",
+                            "color" :"hsl(170, 82%, 48%, 1)",
+                            "loc" : 25
+                        },
+                        {
+                            "name" : "MS SQL",
+                            "color" :"hsl(170, 82%, 48%, 1)",
+                            "loc" : 25
+                        },
+                        {
+                            "name" : "Oracle",
+                            "color" :"hsl(170, 82%, 48%, 1)",
+                            "loc" : 25
+                        }
+                    ]
+                }
+			]
+        },
+        {
+            "name" : "Project Tools",
+            "color" :"hsl(170, 82%, 48%, 1)",
+            "children" : [
+                {
+                    "name" : "Version Control Tools",
+                    "color": "hsl(170, 82%, 48%, 1)",
+                    "children" : [
+                        {
+                            "name" : "SVN",
+                            "color" :"hsl(170, 82%, 48%, 1)",
+                            "loc" : 10
+                        },
+                        {
+                            "name" : "Git",
+                            "color" :"hsl(170, 82%, 48%, 1)",
+                            "loc" : 10
+                        }
+                    ]
+                },
+                {
+                    "name" : "Ticket Management Tools",
+                    "color": "hsl(170, 82%, 48%, 1)",
+                    "children" : [
+                        {
+                            "name" : "Jira",
+                            "color" :"hsl(170, 82%, 48%, 1)",
+                            "loc" : 10
+                        },
+                        {
+                            "name" : "Trello",
+                            "color" :"hsl(170, 82%, 48%, 1)",
+                            "loc" : 10
+                        }
+                    ]
+                }
+            ]
+        },
+		{
+			"name" : "Other Skills",
+			"color": "hsl(170, 82%, 48%, 1)",
+			"children" : [
+                {
+                    "name" : "Interpersonal Skills",
+                    "color" :"hsl(170, 82%, 48%, 1)",
+                    "children" : [
+                        {
+                            "name" : "Work Ethics",
+                            "color" :"hsl(170, 82%, 48%, 1)",
+                            "loc" : 15
+                        },
+                        {
+                            "name" : "Problem Solving",
+                            "color" :"hsl(170, 82%, 48%, 1)",
+                            "loc" : 10
+                        },
+                        {
+                            "name" : "Determination",
+                            "color" :"hsl(170, 82%, 48%, 1)",
+                            "loc" : 10
+                        },
+                        {
+                            "name" : "Team Work",
+                            "color" :"hsl(170, 82%, 48%, 1)",
+                            "loc" : 8
+                        },
+                        {
+                            "name" : "Communication",
+                            "color" :"hsl(170, 82%, 48%, 1)",
+                            "loc" : 6
+                        },
+                        {
+                            "name" : "Languages",
+                            "color" :"hsl(170, 82%, 48%, 1)",
+                            "children" : [
+                                {
+                                    "name" : "English",
+                                    "color" :"hsl(170, 82%, 48%, 1)",
+                                    "loc" : 10
+                                },
+                                {
+                                    "name" : "Nepali",
+                                    "color" :"hsl(170, 82%, 48%, 1)",
+                                    "loc" : 15
+                                }
+                            ]
+                        }
+                    ]
+                }
+			]
+		}
+	]
+}

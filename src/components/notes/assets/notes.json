@@ -1,0 +1,148 @@
+{
+    "Data": [
+        {
+            "title" : "Passing Data Through Props (Parent to Child)",
+            "description": "Because of React’s one-way data flow, it often can be tricky to see how data can flow from one component to another. Data sometimes needs to be able to move from children to parent, parent to children, or between siblings. This is the easiest direction in React to transfer data. If I have access to data in my parent component that I need my child component to have access to, I can pass it as a prop to the child when I instantiate it within the parent.",
+            "example_source":"JSON PARSE: https://www.golangprograms.com/display-json-data-in-reactjs.html",
+            "tags": "props, json",
+            "important": [
+                "Parent to Child - Use Prop",
+                "Child to Parent - Use a callback and states"
+            ],
+            "code_example": [
+                "import React, {Component} from 'react';",
+                "",
+                "class ParentComponent extends React.Component{",
+                "   render(){",
+                "       return(",
+                "           const greeting = 'Welcome to React';",
+                "           return <ChildComponent value={greeting}/>",
+                "           );",
+                "   }",
+                "}",
+                "",
+                "class ChildComponent extends React.Component{",
+                "    render(){",
+                "        return(<p>{this.props.greeting}</p>);",
+                "    }",
+                "}"
+                               
+            ]
+            
+        },
+        {
+            "title" : "Passing Data From Child to Parent - Use a callback and states",
+            "description": "If you've a data in child component and that needs to be accessed by the parent component. Then, you can do this in order: \n \n 1. Define a callback in parent with a parameter. Parameter will be data from child. \n 2. Pass that callback as PROP to the child. \n 3. Call the callback using this.props.[callback] in child, and pass in the data as the argument.",
+            "example_source":"https://medium.com/@ruthmpardee/passing-data-between-react-components-103ad82ebd17",
+            "tags": "child to parent, callback, props",
+            "important": [
+                "This can be done easily using Redux",
+                "Between two siblings - Child to Parent and Parent to Child"
+            ],
+            "code_example": [
+                "class ToDoList extends React.Component {",
+                "    constructor(props) {",
+                "        super(props);",
+                "        this.state = {",
+                "            listDataFromChild: null",
+                "        };",    
+                "    },",
+                "    myCallback = (dataFromChild) => {",
+                "        this.setState({ listDataFromChild: dataFromChild });",
+                "    },",
+                "    otherFn = () => {",
+                "        [...within this other function now I still have access to this.state.listDataFromChild...]",
+                "    }",
+                "    render() {",
+                "        return (",
+                "            <div>",
+                "                 <ToDoItem callbackFromParent={this.myCallback}/>",
+                "                 [...now here I can pass this.state.listDataFromChild as a prop to any other child component...]",  
+                "            </div>",
+                "        );",
+                "    }",
+                "});"                    
+            ]
+            
+        },
+        {
+            "title" : "Making an Interactive Component - Setting a state",
+            "description": "Because of React’s one-way data flow, it often can be tricky to see how data can flow from one component to another. Data sometimes needs to be able to move from children to parent, parent to children, or between siblings. This is the easiest direction in React to transfer data. If I have access to data in my parent component that I need my child component to have access to, I can pass it as a prop to the child when I instantiate it within the parent.",
+            "example_source":"Interactive Component: https://reactjs.org/tutorial/tutorial.html",
+            "tags": "state, interactive, onClick",
+            "important": [
+                "setState function in React works in an asynchronous fashion (the state values are not immediately available after the update)",
+                "A. First Rule of Thumb when using setState() : a. Do Not Modify State Directly ",
+                "B. State Updates May Be Asynchronous.",
+                "C. State Updates are merged."
+            ],
+            "code_example": [
+                "import React, {Component} from 'react';",
+                "",
+                "class Component extends React.Component{",
+                "   constructor(props){",
+                "       super(props);",
+                "       this.state = {",
+                "                    value: null,",
+                "                    };",
+                "   }",
+                "   render(){",
+                "       return(",
+                "           <button",
+                "                   className=\"....\"",
+                "                   onClick={()=>this.setState({value : 'X'})}>",
+                "               {this.state.value}",
+                "           </button>",
+                "       );",
+                "   }",
+                "}"
+                               
+            ]
+            
+        },
+        {
+            "title" : "Using Local Storage",
+            "description": "Persisting state in React is possible by having backend application to store it in a database. But sometimes its more sufficient solution could be to use the native local storage of the browser.",
+            "example_source":"https://www.robinwieruch.de/local-storage-react",
+            "tags": "local storage, storage",
+            "important": [
+                "setState function in React works in an asynchronous fashion (the state values are not immediately available after the update)",
+                "A. First Rule of Thumb when using setState() : a. Do Not Modify State Directly ",
+                "B. State Updates May Be Asynchronous.",
+                "C. State Updates are merged."
+            ],
+            "code_example": [
+                "//setter",
+                "localStorage.setItem('myData', data);",
+                "//getter",
+                "localStorage.setItem('myData')",
+                "//remove",
+                "localStorage.removeItem('myData')",
+                "//remove all",
+                "localStorage.clear()",
+                "import React, {Component} from 'react';",
+                "",
+                "class Component extends React.Component{",
+                "   constructor(props){",
+                "       super(props);",
+                "       this.state = {",
+                "                    value: null,",
+                "                    };",
+                "   }",
+                "   render(){",
+                "       return(",
+                "           <button",
+                "                   className=\"....\"",
+                "                   onClick={()=>this.setState({value : 'X'})}>",
+                "               {this.state.value}",
+                "           </button>",
+                "       );",
+                "   }",
+                "}"
+                               
+            ]
+            
+        }
+        
+    ]
+}

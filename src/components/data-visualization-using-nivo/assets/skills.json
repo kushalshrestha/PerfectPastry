@@ -1,0 +1,32 @@
+[
+    {
+      "id": "go",
+      "label": "go",
+      "value": 194,
+      "color": "hsl(308, 70%, 50%)"
+    },
+    {
+      "id": "erlang",
+      "label": "erlang",
+      "value": 39,
+      "color": "hsl(54, 70%, 50%)"
+    },
+    {
+      "id": "hack",
+      "label": "hack",
+      "value": 377,
+      "color": "hsl(60, 70%, 50%)"
+    },
+    {
+      "id": "scala",
+      "label": "scala",
+      "value": 100,
+      "color": "hsl(280, 70%, 50%)"
+    },
+    {
+      "id": "stylus",
+      "label": "stylus",
+      "value": 99,
+      "color": "hsl(355, 70%, 50%)"
+    }
+  ]

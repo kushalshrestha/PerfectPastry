@@ -1,0 +1,5 @@
+.demo-fix{
+    position: fixed !important;
+    right: 100px !important;
+    top: 100px !important;
+}

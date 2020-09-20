@@ -1,0 +1,89 @@
+# Installation
+npx create-react-app perfectpastry
+
+# React router 5
+--https://learnwebtutorials.com/tutorial-on-react-router-5
+--https://medium.com/@amritansh.200792/how-to-pass-props-to-react-routes-components-21d357906a53
+--https://reacttraining.com/blog/react-router-v5/
+
+npm install react-router-dom
+
+#Bootstrap
+https://create-react-app.dev/docs/adding-bootstrap/
+https://m.pardel.net/react-and-bootstrap-4-part-1-setup-navigation-d4767e2ed9f0
+
+
+npm install --save bootstrap
+npm uninstall --save bootstrap
+
+# React Bootstrap
+https://react-bootstrap.github.io/getting-started/introduction
+https://react-bootstrap.netlify.com/
+
+npm install react-bootstrap bootstrap
+
+# FONT: 
+npm install --save typeface-reenie-beanie
+
+in index.js:
+import "typeface-reenie-beanie"
+
+https://stackoverflow.com/questions/45150666/how-to-import-a-font-installed-with-npm
+
+#pass props
+https://medium.com/@ruthmpardee/passing-data-between-react-components-103ad82ebd17
+
+## Local Storage - Saving Data
+https://medium.com/@siobhanpmahoney/local-storage-in-a-react-single-page-application-34ba30fc977d
+https://www.robinwieruch.de/local-storage-react
+
+
+#font-awesome
+https://fontawesome.com/how-to-use/on-the-web/setup/using-package-managers
+https://scotch.io/tutorials/using-font-awesome-5-with-react
+https://alligator.io/react/font-awesome/
+https://fontawesome.com/icons?d=gallery&q=save
+
+https://fontawesome.com/how-to-use/with-the-api/setup/importing-icons
+BEST TO FOLLOW: https://www.npmjs.com/package/@fortawesome/react-fontawesome
+npm install @fortawesome/react-fontawesome @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons
+npm install @fortawesome/fontawesome-svg-core @fortawesome/react-fontawesome @fortawesome/free-regular-svg-icons @fortawesome/free-solid-svg-icons  @fortawesome/free-brands-svg-icons
+npm i --save @fortawesome/react-fontawesome
+===========
+## React with node express backend
+https://www.freecodecamp.org/news/create-a-react-frontend-a-node-express-backend-and-connect-them-together-c5798926047c/
+
+## BEST TUTORIALS:
+https://www.toptal.com/nodejs/secure-rest-api-in-nodejs
+https://www.robinwieruch.de/minimal-node-js-babel-setup
+https://www.freecodecamp.org/news/chart-the-stock-market-with-react-redux-react-vis-and-socket-io-18caf312693c/
+https://www.reddit.com/r/javascript/comments/83i8ov/i_made_an_a_simple_react_app_that_queries_an_api/
+https://react.rocks/example/ReactiveTrader
+https://pusher.com/tutorials/consume-restful-api-react
+https://www.ably.io/tutorials/newsfeed-react
+https://www.ably.io/tutorials/reactjs-realtime-commenting
+https://www.freecodecamp.org/news/how-to-create-a-realtime-app-using-socket-io-react-node-mongodb-a10c4a1ab676/
+https://blog.hellojs.org/fetching-api-data-with-react-js-460fe8bbf8f2   ----used this in example
+https://www.robinwieruch.de/react-fetching-data
+
+
+## DATA VISUALIZATION:
+npm install --save @nivo/bar
+
+Add in package.json: "@nivo/bar": "^0.42.1"
+Then,
+npm install --save
+
+https://nivo.rocks/bar/
+https://uber.github.io/react-vis/documentation/getting-started/react-vis-in-codepen
+https://github.com/plouc/nivo/issues/230
+=========
+https://programmingwithmosh.com/javascript/top-frontend-frameworks-to-learn-in-2020/
+https://gitconnected.com/learn/react
+https://www.freecodecamp.org/news/learn-react-js-in-5-minutes-526472d292f4/
+BEST: https://scrimba.com/g/glearnreact?utm_source=freecodecamp.org&utm_medium=referral&utm_campaign=glearnreact_5_minute_article
+https://scrimba.com/p/pvwkvhx/cNqRvZsw
+=========
+PORTFOLIO:
+https://fontawesome.com/
+

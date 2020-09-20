@@ -1,0 +1,8 @@
+.sunburstChart {
+    height: 400px;
+    width:100%;
+    /* background-color: #030f0a52; */
+    padding: 5px;
+    margin: 0px 35px 0px 0px;
+    color: var(--clr-dark);
+}
