@@ -124,20 +124,50 @@
                     "color" :"hsl(170, 82%, 48%, 1)",
                     "children" : [
                         {
-                            "name" : "MySQL",
+                            "name" : "RDBMS",
                             "color" :"hsl(170, 82%, 48%, 1)",
-                            "loc" : 25
+                            "children" : [
+                                {
+                                    "name" : "MySQL",
+                                    "color" :"hsl(170, 82%, 48%, 1)",
+                                    "loc" : 25
+                                },
+                                {
+                                    "name" : "MS SQL",
+                                    "color" :"hsl(170, 82%, 48%, 1)",
+                                    "loc" : 25
+                                },
+                                {
+                                    "name" : "Oracle",
+                                    "color" :"hsl(170, 82%, 48%, 1)",
+                                    "children" : [
+                                        {
+                                            "name" : "PL/SQL",
+                                            "color" :"hsl(170, 82%, 48%, 1)",
+                                            "loc" : 20
+                                        },
+                                        {
+                                            "name" : "Oracle Data Integrator",
+                                            "color" :"hsl(170, 82%, 48%, 1)",
+                                            "loc" : 8
+                                        }
+
+                                    ]
+                                }
+                            ]
                         },
                         {
-                            "name" : "MS SQL",
+                            "name" : "BI Tool",
                             "color" :"hsl(170, 82%, 48%, 1)",
-                            "loc" : 25
-                        },
-                        {
-                            "name" : "Oracle",
-                            "color" :"hsl(170, 82%, 48%, 1)",
-                            "loc" : 25
+                            "children" : [
+                                {
+                                    "name" : "Microstrategy",
+                                    "color" :"hsl(170, 82%, 48%, 1)",
+                                    "loc" : 10
+                                }
+                            ]
                         }
+                        
                     ]
                 }
 			]

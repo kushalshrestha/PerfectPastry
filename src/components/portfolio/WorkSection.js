@@ -24,22 +24,27 @@ export default class WorkSection extends React.Component {
                     
                     <Col xs={5}>
                         <h3>Bpazes</h3>
-                        <p>Website : https://bpazes.com/ <br/>
+                        
+                        <p>
+                            <a class="ext-web" href="https://bpazes.com/" target="_blank" rel="noreferrer noopener"> Visit Website </a>
+                            |<a class="ext-web" href="https://github.com/kushalshrestha/bpazesSQL" target="_blank" rel="noreferrer noopener"> Github </a>
+                            <br/>
                         Role : Database developer <br/>
                         Used : MySQL, Figma (for designing new prototype)<br/>
-                        Description : Currently working on online business directory - database design, PL/SQL.<br/>
-                        Github : https://github.com/kushalshrestha/bpazesSQL (private repo) </p>
+                        Description : Currently working on online business directory - database design, PL/SQL.</p>
 
                     </Col>
                 </Row> 
                 <Row>
                 <Col xs={{span: 5, offset:4}}>
                         <h3>Smoothbalance</h3>
-                        <p>Website : https://smoothbalance.com/ <br/>
+                        <p>
+                            <a class="ext-web" href="https://smoothbalance.com/" target="_blank" rel="noreferrer noopener"> Visit Website </a>
+                            |<a class="ext-web" href="https://github.com/Pradip5552/SmoothBalance" target="_blank" rel="noreferrer noopener"> Github </a>
+                            <br/>
                         Role : API developer <br/>
                         Language : PHP<br/>
-                        Description : Invoicing app for small businesses<br/>
-                        Github : https://github.com/Pradip5552/SmoothBalance (private repo, worked as a contributors) </p>
+                        Description : Invoicing app for small businesses</p>
 
                     </Col>
                     <Col xs={3}>  
@@ -57,9 +62,10 @@ export default class WorkSection extends React.Component {
                     </Col>
                     <Col xs={5}>
                         <h3>Boggle Game</h3>
-                        <p>Personal Project for learning ReactJS and Ruby on Rails<br/>
-                        Used : ReactJS, Ruby on Rails<br/>
-                        Github : https://github.com/kushalshrestha/Boggle </p>
+                        <p>
+                            <a class="ext-web" href="https://github.com/kushalshrestha/Boggle" target="_blank" rel="noreferrer noopener"> Github </a>
+                            <br/>Personal Project for learning ReactJS and Ruby on Rails<br/>
+                        Used : ReactJS, Ruby on Rails</p>
                     </Col>
                 </Row>   
                 

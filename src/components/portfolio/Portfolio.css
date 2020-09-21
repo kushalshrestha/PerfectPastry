@@ -135,7 +135,10 @@ h3 { font-size: var(--fs-h3) }
         left: -1.5em;
         width: calc(100% + 1.5em);
     }
+
+    
 }
+
 
 
 
@@ -268,6 +271,27 @@ h3 { font-size: var(--fs-h3) }
     opacity: .5;
 }
 
+.ext-web{
+    color: var(--clr-accent);
+    text-decoration: none;
+}
+
+.ext-web:hover{
+    color: var(--clr-accent);
+    text-decoration: none;
+    opacity: .7;
+}
+
+.about-me .ext-web{
+    color: var(--clr-dark);
+    text-decoration: none;
+}
+
+.about-me .ext-web:hover{
+    color: var(--clr-dark);
+    text-decoration: none;
+    opacity: .7;
+}
 
 /* footer */
 

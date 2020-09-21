@@ -20,8 +20,8 @@ export default class AboutMeSection extends React.Component {
                </p>
                 <p>I define myself as a continuous learner and prefer to keep learning and challenge myself.</p>
                <b>Honors-Awards</b>
-               <p>Angular Attack 2018 (Public Favorite for project - Multilayout Generator</p>
-               <p>React Riot Winner (Hackers Favorite for project - A good day to quiz hard</p>
+               <p><a class="ext-web" href="https://2018.angularattack.com/entries/152-cauldron-of-bats" target="_blank" rel="noreferrer noopener"> Angular Attack 2018 (Public Favorite for project - Multilayout Generator </a></p>
+               <p><a class="ext-web" href="https://2018.reactriot.com/entries/12-spontaneous" target="_blank" rel="noreferrer noopener">React Riot Winner (Hackers Favorite for project - A good day to quiz hard</a></p>
            </div>
            
            <img src={logo} alt="Jane leaning against a bus" class="about-me__img"/>
